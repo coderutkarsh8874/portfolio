@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Utkarsh Pandey | Portfolio</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#f5f5f5;
+color:#333;
+line-height:1.6;
+}
+
+header{
+background:#0f172a;
+color:white;
+padding:20px 0;
+position:sticky;
+top:0;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+max-width:1100px;
+margin:auto;
+padding:0 20px;
+}
+
+nav h1{
+font-size:22px;
+}
+
+nav ul{
+list-style:none;
+display:flex;
+gap:20px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:500;
+}
+
+section{
+padding:60px 20px;
+max-width:1100px;
+margin:auto;
+}
+
+.hero{
+display:flex;
+flex-wrap:wrap;
+align-items:center;
+justify-content:space-between;
+gap:40px;
+}
+
+.hero img{
+width:200px;
+height:200px;
+border-radius:50%;
+object-fit:cover;
+}
+
+.hero-text h2{
+font-size:32px;
+margin-bottom:10px;
+}
+
+.hero-text p{
+color:#555;
+}
+
+.skills{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(120px,1fr));
+gap:15px;
+margin-top:20px;
+}
+
+.skill{
+background:white;
+padding:12px;
+text-align:center;
+border-radius:8px;
+box-shadow:0 2px 6px rgba(0,0,0,0.1);
+}
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+margin-top:20px;
+}
+
+.project-card{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 3px 8px rgba(0,0,0,0.1);
+}
+
+.project-card h3{
+margin-bottom:10px;
+}
+
+.project-card a{
+text-decoration:none;
+color:#2563eb;
+font-weight:500;
+}
+
+.contact{
+text-align:center;
+}
+
+.contact a{
+display:inline-block;
+margin:10px;
+color:#2563eb;
+text-decoration:none;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#0f172a;
+color:white;
+margin-top:40px;
+}
+
+@media(max-width:768px){
+
+.hero{
+flex-direction:column;
+text-align:center;
+}
+
+nav ul{
+gap:10px;
+font-size:14px;
+}
+
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<nav>
+<h1>Utkarsh Pandey</h1>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<section id="about">
+<div class="hero">
+<img src="https://via.placeholder.com/200" alt="Profile Photo">
+
+<div class="hero-text">
+<h2>Hello, I'm Utkarsh 👋</h2>
+<p>
+B.Tech graduate with strong skills in Frontend Development, Java, Python and Machine Learning.
+I enjoy building real-world applications including AI systems, web platforms and full stack solutions.
+Currently exploring backend development using Python, Django and PostgreSQL while building
+projects that solve real problems.
+</p>
+</div>
+</div>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+
+<div class="skills">
+<div class="skill">HTML</div>
+<div class="skill">CSS</div>
+<div class="skill">JavaScript</div>
+<div class="skill">Python</div>
+<div class="skill">Java</div>
+<div class="skill">Django</div>
+<div class="skill">PostgreSQL</div>
+<div class="skill">Machine Learning</div>
+<div class="skill">Git</div>
+<div class="skill">REST APIs</div>
+</div>
+
+</section>
+
+<section id="projects">
+
+<h2>Projects</h2>
+
+<div class="projects">
+
+<div class="project-card">
+<h3>Credit Card Fraud Detection</h3>
+<p>
+Machine learning model that detects fraudulent credit card transactions using data analysis
+and classification algorithms.
+</p>
+<a href="#">View Project</a>
+</div>
+
+<div class="project-card">
+<h3>Captcha Verification System</h3>
+<p>
+Custom CAPTCHA system built using HTML, CSS and JavaScript to prevent bots and verify real users.
+</p>
+<a href="#">View Project</a>
+</div>
+
+<div class="project-card">
+<h3>Full Stack E-Commerce Website</h3>
+<p>
+Complete e-commerce platform with product listing, cart, user authentication, checkout and
+admin dashboard built using modern full stack technologies.
+</p>
+<a href="#">View Project</a>
+</div>
+
+<div class="project-card">
+<h3>To-Do List Application</h3>
+<p>
+Task management web app that allows users to create, edit and delete daily tasks using JavaScript.
+</p>
+<a href="#">View Project</a>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<div class="contact">
+<p>Feel free to connect with me</p>
+
+<a href="mailto:yourmail@email.com">Email</a>
+<a href="https://github.com/">GitHub</a>
+<a href="https://linkedin.com/">LinkedIn</a>
+
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 Utkarsh Pandey | Portfolio</p>
+</footer>
+
+</body>
+</html>
